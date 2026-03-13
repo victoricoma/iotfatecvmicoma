@@ -3,6 +3,7 @@
   packages = [
     pkgs.python311
     pkgs.python311Packages.pip
+    pkgs.python311Full
   ];
   idx = {
     extensions = [ "ms-python.python" ];
